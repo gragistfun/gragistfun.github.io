@@ -16,4 +16,4 @@ ssh-add -K
 echo
 
 echo "Starting configuration"
-ansible-pull -U https://github.com/gragistfun/.gragistfun -d $HOME/.setup -K ansible/local.yml
+ansible-pull -U https://github.com/gragistfun/.gragistfun -d "$HOME"/.setup -K ansible/local.yml
